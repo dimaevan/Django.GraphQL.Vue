@@ -7,6 +7,9 @@ authors = ["dimaevan <dimaevan@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 Django = "^4.0.1"
+graphene-django = "^2.15.0"
+Faker = "^11.3.0"
+django-cors-headers = "^3.11.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
